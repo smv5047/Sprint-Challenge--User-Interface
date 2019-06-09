@@ -34,8 +34,11 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+    Semantic HTML is the process of using meaningful tags within your HTML. These tags provide meaning for yourself and other developers so that your code is easier to understand. For example the intent of a header tag is clearer than having a div containing your header. Using Semantic HTML is also beneficial from an accessibility and SEO standpoint as the code is more easily understood by accesbility tools and search engines.
 
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+    The two big differences are that block elements start on their own line, and can have their height and width adjusted. Inline elements occur on the same line and height and width cannot be adjusted.
 
 3. What are the 4 areas of the box model?
 
@@ -43,22 +46,26 @@ Edit this document to include your answers after each question. Make sure to lea
 
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+    The cross-axis
+
 5. Explain why git is valuable to a team of developers.
+
+    Git is valuable as it allows for collaboration and versioning on software development projects. When working on teams git allows certain features or functions to be worked on at the same time by seperate teams. Git then allows that work to be merged back together. Git also allows for a tracking of version history. This is especially valuable if an issue or bug occurs and a previous version must be rolled back to, or analyzed to determine the issue.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
 ## Project Set Up
 
-- [ ] Create a forked copy of this project.
-- [ ] Add your project manager as collaborator on Github.
-- [ ] Clone your OWN version of the repository (Not Lambda's by mistake!).
-- [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
-- [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
-- [ ] Push commits: git push origin `<firstName-lastName>`.
+- [X] Create a forked copy of this project.
+- [X] Add your project manager as collaborator on Github.
+- [X] Clone your OWN version of the repository (Not Lambda's by mistake!).
+- [X] Create a new branch: git checkout -b `<firstName-lastName>`.
+- [X] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
+- [X] Push commits: git push origin `<firstName-lastName>`.
  
 Follow these steps for completing your project.
 
-- [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
+- [X] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
 - [ ] Add your project manager as a reviewer on the pull-request
 - [ ] Your project manager will count the project as complete by merging the branch back into master.
  
