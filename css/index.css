@@ -87,6 +87,11 @@ a {
     color: black;
 }
 
+a:hover {
+    text-decoration: underline;
+    transition: text-decoration .25s ease-out .2s;
+}
+
 header img {
     margin-bottom: 20px;
 }
@@ -276,4 +281,21 @@ button:hover {
 .bottom {
     width: 100%;
     padding: 25px 25px;
+}
+
+/*Contact Page Stylings*/
+
+.contact-form {
+    text-align: center;
+    padding: 200px;
+    margin-bottom: 100px;
+}
+
+.contact-form p {
+    padding: 50px;
+}
+
+
+.form-row {
+    padding: 8px;
 }
