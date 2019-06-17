@@ -71,6 +71,33 @@ p {
     margin: 0 auto;
 }
 
+/* Nav Styling */
+
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    padding-right: 50px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+    transition: text-decoration .25s ease-out .2s;
+}
+
+header img {
+    margin-bottom: 20px;
+}
+
+/*Top Section Styling*/
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -84,6 +111,8 @@ p {
     padding: 0 1%;
     padding-bottom: 20px;  
 }
+
+/* Middle Section Style */
 
 .middle-content {
     margin-bottom: 20px;
@@ -112,6 +141,51 @@ p {
     justify-content: center;
 }
 
+/*Box Styling */
+.middle-content .boxes .box1 {
+    background: teal;
+}
+
+.middle-content .boxes .box2 {
+    background: gold;
+}
+
+.middle-content .boxes .box3 {
+    background: cadetblue;
+}
+
+.middle-content .boxes .box4 {
+    background: coral;
+}
+
+.middle-content .boxes .box5 {
+    background: crimson;
+}
+
+.middle-content .boxes .box6 {
+    background: forestgreen;
+}
+
+.middle-content .boxes .box7 {
+    background: darkorchid;
+}
+
+.middle-content .boxes .box8 {
+    background: hotpink;
+}
+
+.middle-content .boxes .box9 {
+    background: indigo;
+}
+
+.middle-content .boxes .box10 {
+    background: dodgerblue;
+}
+
+
+
+/*Bottom Section Style*/
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -138,9 +212,90 @@ footer nav {
     align-items: center;
     padding: 20px 2%;
     font-size: 14px;
+    height: 50px;
 }
 
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+
+/* About Page Styles */
+
+.about {
+    padding: 0 25px 25px 25px;
+    border-bottom: dashed 1px black;
+}
+
+
+
+.middle {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    width: 100%;  
+}
+
+
+
+.about-box {
+    width: 45%;
+    height: 420px;
+    padding-bottom: 40px;
+    border-bottom: dashed 1px black;
+    margin: 30px 20px;
+}
+
+.about-box img {
+    width: 100%;
+}
+
+.about-box h3 {
+    padding-top: 10px;
+    padding-left: -10px;
+}
+
+.about-box p {
+    padding-bottom: 20px;
+}
+
+
+button {
+	text-align: center;
+	width: 130px;
+	font-size: 16px;
+	padding: 10px 0px;
+	background-color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+	transition: background-color .25s ease-out .2s;
+}
+
+.bottom {
+    width: 100%;
+    padding: 25px 25px;
+}
+
+/*Contact Page Stylings*/
+
+.contact-form {
+    text-align: center;
+    padding: 200px;
+    margin-bottom: 50px;
+}
+
+.contact-form p {
+    padding: 50px;
+}
+
+
+.form-row {
+    padding: 8px;
 }
